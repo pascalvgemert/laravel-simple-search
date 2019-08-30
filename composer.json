@@ -1,0 +1,36 @@
+{
+    "name": "pascalvgemert/laravel-simple-search",
+    "version": "0.1.0",
+    "description": "Simplistic search Trait for Laravel eloquent models which can handle relevance score sorting.",
+    "keywords": [
+        "pascalvgemert",
+        "laravel-simple-search",
+        "searchable",
+        "simple search"
+        "relevance score",
+        "like query"
+    ],
+    "homepage": "https://github.com/pascalvgemert/laravel-simple-search",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pascal van Gemert",
+            "email": "pascal@pascalvangemert.nl",
+            "homepage": "https://www.pascalvangemert.nl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0",
+        "illuminate/database": "5.5.x|5.6.x|5.7.x|5.8.x"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "SimpleSearch\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    }
+}
